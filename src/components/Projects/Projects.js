@@ -8,6 +8,7 @@ import vinted from "../../Assets/Projects/vinted.png";
 import flaviamonteiro from "../../Assets/Projects/flaviamonteiro.png";
 import airbnb from "../../Assets/Projects/airbnb.png";
 import sixt from "../../Assets/Projects/sixt.png";
+import ecommerce from "../../Assets/Projects/ecommerce.png";
 
 function Projects() {
   return (
@@ -21,6 +22,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecommerce}
+              isBlog={false}
+              title="Ecommerce template"
+              description="Ecommerce template page. Next.js project with authentication, stripe payment, database"
+              ghLink="https://github.com/felipefarnetti/ecommercefr"
+              demoLink="https://ecommercefr.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={flaviamonteiro}

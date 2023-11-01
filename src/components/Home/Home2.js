@@ -27,8 +27,8 @@ function Home2() {
               innovating in this domain that truly captivates me. 🤷‍♂️
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing with{" "}
-              <b className="purple">Node.js and React.js</b>
+              Whenever possible, I also apply my passion for developing with
+              <b className="purple">Next, React and Node / js</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

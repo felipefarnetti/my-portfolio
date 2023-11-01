@@ -13,8 +13,8 @@ function AboutCard() {
             <br /> Accomplished IT manager with a history of leadership at a
             renowned business school, responsible for optimizing campus-wide
             technology. Certified graduate of a notable web development
-            bootcamp, skilled in HTML, CSS, and JavaScript (React.Js and
-            Node.js). Adept at cross-functional collaboration and IT
+            bootcamp, skilled in HTML, CSS, and JavaScript (React.js and Node.js
+            + Next.js). Adept at cross-functional collaboration and IT
             infrastructure enhancement. Ready to apply expertise in dynamic
             solutions and technical leadership.
             <br />
@@ -36,7 +36,7 @@ function AboutCard() {
 
           <p style={{ color: "rgb(155 126 172)" }}>
             “If you can imagine it, you can achieve it. If you can dream it, you
-            can become it.”{" "}
+            can become it.”
           </p>
           <footer className="blockquote-footer">William Arthur Ward</footer>
         </blockquote>

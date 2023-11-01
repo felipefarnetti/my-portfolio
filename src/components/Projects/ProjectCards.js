@@ -18,11 +18,9 @@ function ProjectCards(props) {
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
         </Button>
-        {"\n"}
-        {"\n"}
 
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
+        <div>&nbsp;</div>
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
