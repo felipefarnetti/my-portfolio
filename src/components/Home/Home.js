@@ -26,7 +26,8 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+                <h2>Full-Stack Developer</h2>
+                {/* <Type /> */}
               </div>
             </Col>
 
